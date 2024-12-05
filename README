@@ -1,4 +1,12 @@
-FFmpeg README
+# compile in linux
+grant permission to  `configure` and `version.sh`, then
+```shell
+./configure --enable-debug=3 --disable-optimizations
+# ffmpeg_g generated in current directory
+make -j16
+```
+
+# FFmpeg README
 ------------
 
 1) Documentation
